@@ -1,0 +1,174 @@
+#firstNumber{
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: peru;
+    font-size: 20px;  
+}
+#firstNumber:hover{
+    background-color: darkorange;
+    /* border-radius: 10%; */
+    font-size: 40px;
+    width: 340px;
+    color: white;
+    height: 80px;
+    transition: 9s;
+}
+#secondNumber{
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: peru;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+#secondNumber:hover{
+    background-color: lawngreen;
+    /* border-radius: 10%; */
+    font-size: 40px;
+    width: 400px;
+    color: white;
+    height: 80px;
+}
+P{
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#sum{
+    width: 290px;
+    height: 140px;
+    background-color: blue;
+    color: white;
+    font-size: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+#sum:hover{
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 100px;
+}
+#subtract{
+    position: relative;
+    top: 190px;
+    width: 290px;
+    height: 140px;
+    background-color: blue;
+    color: white;
+    font-size: 130px;
+    left: -300px;
+}
+#subtract:hover{
+    background-color: green;
+    border-radius: 50%;
+    font-size: 100px;
+}
+#div{
+    background-color: purple;
+    width: 700px;
+    position: relative;
+    left: 0px;
+    height: 419px;
+    border-radius: 12px;
+    top: -70px;
+}
+#section{
+    border: 2px solid red;
+    width: 710px;
+    background-color: black;
+}
+#equal{
+    position: relative;
+    top: -99px;
+    color: white;
+}
+#div:hover{
+    background-color: purple;
+    border-radius: 10%;
+    font-size: 100px;
+}
+#multiply{
+    background-color: blue;
+    width: 270px;
+    margin-left: 380px;
+    height: 140px;
+    position: relative;
+    top: -160px;
+    color: white;
+    font-size: 130px;
+}
+#multiply:hover{
+    background-color: red;
+    border-radius: 50%;
+    font-size: 100px;
+}
+#divides{
+    background-color: red;
+    color: white;
+    font-size: 130px;
+    width: 270px;
+    height: 140px;
+    position: relative;
+    left: 390px;
+    top: -90px;
+}
+#divides:hover{
+    background-color: pink;
+    border-radius: 50%;
+    font-size: 100px;
+}
+body{
+    overflow: hidden;
+}
+@media screen and (max-width: 498px){
+    #div{
+       position: relative;
+       left: -00px;
+       top: -80px;
+       width: 50%;
+       height: 370px;
+        
+    }
+    #equal{
+        position: relative;
+        top: -90px;
+    }
+    #secondNumber{
+        width: 70%;
+    }
+    #firstNumber{
+       width: 70%;
+    }
+    #sum{
+        width: 80px;
+        font-size: 30px;
+    }
+    #subtract{
+        width: 80px;
+        font-size: 30px;
+        position: relative;
+        left: -90px;
+        top: 150px;
+    }
+    #multiply{
+        width: 80px;
+        font-size: 30px;
+        position: relative;
+        left: -210px;
+        top: -140px;
+    }
+    #divides{
+        width: 80px;
+        font-size: 30px;
+        position: relative;
+        left: 170px;
+        top: -130px;
+    }
+}

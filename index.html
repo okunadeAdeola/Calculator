@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="section">
+        <p>ADEY CALCULATOR</p>
+    
+    <input type="number" placeholder="first number" id="firstNumber">
+    <input type="number" placeholder="second number" id="secondNumber">
+    <h1 id="equal">00</h1>
+
+    <!-- <button onclick="addNumbers()" id="sign">Sign up</button> -->
+    <div id="div">
+    <button onclick="sum()" id="sum">+</button>
+    <button onclick="subtract()" id="subtract">-</button>
+    <button onclick="multiply()" id="multiply">*</button>
+    <button onclick="divides()" id="divides">/</button>
+    <!-- <button onclick="areaCircle">Area of a circle</button> -->
+</div>
+</section>
+    <script>
+        function addNumbers() {
+            console.log("I am the best left footer's player in the world");
+            console.log("I am now a developer");
+            console.log("Life is unpredictable but you choose your own destiny no matter how sweet or bitter it is you must taste and swallow it yourself");
+        }
+        function sum() {
+            var valueOne = Number (document.getElementById("firstNumber").value)
+            var valueTwo = Number (document.getElementById("secondNumber").value)
+            var answer = valueOne + valueTwo
+             document.getElementById("equal").innerHTML = answer
+            // var num1 = Number(prompt("Enter the first number"))
+            // var num2 = Number(prompt("Enter the second number"))
+            // var answer = num1 + num2
+            // console.log(answer);
+        }
+
+        function subtract(){
+             var valueOne = Number (document.getElementById("firstNumber").value)
+             var valueTwo = Number (document.getElementById("secondNumber").value)
+             var answer = valueOne - valueTwo
+             document.getElementById("equal").innerHTML = answer
+        }
+        function multiply(){
+             var valueOne = Number (document.getElementById("firstNumber").value)
+             var valueTwo = Number (document.getElementById("secondNumber").value)
+             var answer = valueOne * valueTwo
+             document.getElementById("equal").innerHTML = answer
+        }
+        function divides(){
+             var valueOne = Number (document.getElementById("firstNumber").value)
+             var valueTwo = Number (document.getElementById("secondNumber").value)
+             var answer = valueOne / valueTwo
+             document.getElementById("equal").innerHTML = answer
+        }
+
+        function areaCircle(){
+            var pi = 22/7
+            var radius = Number(prompt("Pass in the radius"))
+            var answer = pi * (radius**2)
+            var convertedAnswer = answer.toFixed(2)
+            console.log(("area of a circle is " +convertedAnswer+"cm"));
+        }
+    </script>
+</body>
+</html>
