@@ -1,35 +1,24 @@
 #firstNumber{
-    width: 300px;
+    width: 420px;
     height: 60px;
     border-radius: 6px;
-    background-color: peru;
-    font-size: 20px;  
+    background-color: whitesmoke;
+    font-size: 20px; 
+    /* margin-top: 30px;  */
+    margin-left: 10px;
 }
-#firstNumber:hover{
-    background-color: darkorange;
-    /* border-radius: 10%; */
-    font-size: 40px;
-    width: 340px;
-    color: white;
-    height: 80px;
-    transition: 9s;
-}
+
 #secondNumber{
-    width: 300px;
-    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 70px;
+    font-size: 20px; 
+    width: 420px;
     border-radius: 6px;
-    background-color: peru;
-    font-size: 20px;
-    margin-bottom: 100px;
+    background-color: whitesmoke;
 }
-#secondNumber:hover{
-    background-color: lawngreen;
-    /* border-radius: 10%; */
-    font-size: 40px;
-    width: 400px;
-    color: white;
-    height: 80px;
-}
+
 P{
     font-family: fantasy;
     font-size: 30px;
@@ -41,63 +30,49 @@ P{
     box-sizing: border-box;
 }
 #sum{
-    width: 290px;
+    width: 200px;
     height: 140px;
-    background-color: blue;
+    background-color: green;
     color: white;
     font-size: 150px;
     margin-left: 20px;
     margin-top: 30px;
     justify-content: center;
 }
-#sum:hover{
-    background-color: yellow;
-    border-radius: 50%;
-    font-size: 100px;
-}
+
 #subtract{
     position: relative;
-    top: 190px;
-    width: 290px;
+    top: 150px;
+    width: 190px;
     height: 140px;
-    background-color: blue;
+    background-color: green;
     color: white;
     font-size: 130px;
-    left: -300px;
+    left: -200px;
 }
-#subtract:hover{
-    background-color: green;
-    border-radius: 50%;
-    font-size: 100px;
+#block{
+    display: block;
 }
-#div{
-    background-color: purple;
-    width: 700px;
-    position: relative;
-    left: 0px;
-    height: 419px;
-    border-radius: 12px;
-    top: -70px;
-}
+
+
 #section{
     border: 2px solid red;
-    width: 710px;
+    width: 450px;
     background-color: black;
+    margin-left: 300px;
+    height: 550px;
 }
 #equal{
     position: relative;
-    top: -99px;
+    top: 20px;
+    left: 10px;
     color: white;
 }
-#div:hover{
-    background-color: purple;
-    border-radius: 10%;
-    font-size: 100px;
-}
+
 #multiply{
-    background-color: blue;
-    width: 270px;
-    margin-left: 380px;
+    background-color: green;
+    width: 190px;
+    margin-left: 250px;
     height: 140px;
     position: relative;
     top: -160px;
@@ -106,22 +81,22 @@ P{
 }
 #multiply:hover{
     background-color: red;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     font-size: 100px;
 }
 #divides{
-    background-color: red;
+    background-color: green;
     color: white;
     font-size: 130px;
-    width: 270px;
+    width: 190px;
     height: 140px;
     position: relative;
-    left: 390px;
-    top: -90px;
+    left: 250px;
+    top: -130px;
 }
 #divides:hover{
     background-color: pink;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     font-size: 100px;
 }
 body{
@@ -138,37 +113,48 @@ body{
     }
     #equal{
         position: relative;
-        top: -90px;
+        top: 13px;
     }
     #secondNumber{
-        width: 70%;
+        width: 85%;
+        overflow: hidden;
     }
     #firstNumber{
-       width: 70%;
+       width: 85%;
+       overflow: hidden;
     }
     #sum{
-        width: 80px;
+        width: 107px;
         font-size: 30px;
+        margin-top: 110px;
+    }
+    #section{
+        height: 561px;
+        width: 90%;
+        margin-left: -00px;
     }
     #subtract{
-        width: 80px;
-        font-size: 30px;
         position: relative;
-        left: -90px;
-        top: 150px;
+        top: 30px;
+        margin-left: 220px;
+        width: 107px;
+        font-size: 30px;
     }
     #multiply{
-        width: 80px;
+        width: 107px;
         font-size: 30px;
         position: relative;
-        left: -210px;
-        top: -140px;
+        left: -80px;
+        top: -281px;
     }
     #divides{
-        width: 80px;
+        width: 107px;
         font-size: 30px;
         position: relative;
         left: 170px;
-        top: -130px;
+        top: -250px;
+    }
+    body{
+        overflow: hidden;
     }
 }
